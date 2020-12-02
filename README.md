@@ -27,8 +27,9 @@ Image steganography is the art of hiding data into images. Secret data such as m
 
 ## Contributers
 
-Sahil Gangurde – [@lost_martian_](https://twitter.com/lost_martian_) – sahilgangurde08@gmail.com
-Krishnakant Tiwari – [@Iamkkant](https://twitter.com/Iamkkant) – kkant5401@gmail.com
+<b>Sahil Gangurde</b> – [@lost_martian_](https://twitter.com/lost_martian_) – sahilgangurde08@gmail.com
+<br>
+<b>Krishnakant Tiwari</b> – [@Iamkkant](https://twitter.com/Iamkkant) – kkant5401@gmail.com
 
 ## Contributing
 
