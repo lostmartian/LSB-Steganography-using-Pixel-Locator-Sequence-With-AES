@@ -15,7 +15,7 @@ def main():
         if os.path.exists("images/out1.png"):
             os.remove("images/out1.png")
 
-        if os.path.exists("images/in.jpg"):
+        if os.path.exists("images/in1.png"):
             secretMessage = input("Enter the secret message :")
             passwordText = input("Password :")
             encodedMessage = Cipher.encrypt(secretMessage, passwordText)

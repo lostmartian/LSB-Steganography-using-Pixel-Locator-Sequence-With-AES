@@ -7,7 +7,7 @@ from PIL import Image
 import PLShandler as plsh
 
 PLS = []
-img = Image.open(r"in.jpg")
+img = Image.open(r"images/in1.png")
 [row, col] = img.size
 
 
@@ -59,7 +59,7 @@ def LsbEncoding(encodedText):
             newrgb = (value[0], value[1], value[2])
             img.putpixel((rr, rc), newrgb)
         dr += 1
-    img.save("out.png")
+    img.save("images/out1.png")
     plsPassword = input("Insert Password for pls encyption :")
     key = hashlib.sha256(plsPassword.encode()).digest()
     plsh.encrypt_file(key, 'pls.txt')
@@ -75,7 +75,7 @@ def LsbDecoding():
     if os.path.exists("pls.txt.enc"):
         os.remove("pls.txt.enc")
     decodedTextInBits = []
-    stegoImage = Image.open(r"out.png")
+    stegoImage = Image.open(r"images/out1.png")
     for i in range(0, len(pls), 3):
         ithChar = ""
         for j in range(0, 3):
