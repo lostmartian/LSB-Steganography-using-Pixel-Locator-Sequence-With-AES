@@ -1,7 +1,7 @@
 # Improved LSB Steganography 
 > Improvised LSB Steganography technique using Pixel Locator Sequence with AES
 
-This is the implementation of our research paper based on <b>LSB Steganography</b> submitted at [SECOND INTERNATIONAL CONFERENCE ON CYBER COMPUTING AND COMMUNICATIONS](https://www.nitj.ac.in/icsccc2021/) arxiv preprint : [2012.02494](https://arxiv.org/abs/2012.02494).
+This is the implementation of our research paper based on <b>LSB Steganography</b> submitted at [Second International Conference on Cyber Computing and Communications](https://www.nitj.ac.in/icsccc2021/) arxiv preprint : [2012.02494](https://arxiv.org/abs/2012.02494).
 
 ## Development Setup
 
